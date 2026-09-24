@@ -55,7 +55,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name=f"SudachiDict-{DICT_EDITION}",
+    name=f"sudachidict-{DICT_EDITION}",
     version=PKG_VERSION,
     description=f"Sudachi Dictionary for SudachiPy - {DICT_EDITION.title()} Edition",
     long_description=long_description,
